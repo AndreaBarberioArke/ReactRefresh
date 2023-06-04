@@ -1,6 +1,6 @@
 export interface Props {
-    onCancel:any | undefined | void; 
-    onConfirm:any | undefined | void; 
+    onCancel: () => void; 
+    onConfirm: () => void; 
 }
 
 export const Modal = (props:Props) => {
